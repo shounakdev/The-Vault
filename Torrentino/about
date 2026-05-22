@@ -1,0 +1,22 @@
+Torrentino
+Torrentino is a sleek, web-based torrent management UI built with Next.js and TailwindCSS. It connects to a running qBittorrent instance via its Web API, allowing you to manage torrents directly from a modern, responsive interface.
+
+Features
+Add torrents via magnet links
+View and manage active torrents (status, progress, speeds)
+Modern UI powered by TailwindCSS
+Configurable API layer with environment variables
+Frontend + API integration for seamless torrent control
+Tech Stack
+Frontend: Next.js, React, Tailwind CSS
+
+Backend: Check torrent server api (https://github.com/shounakdev/torrent-server)
+
+Contributing
+Contributions are always welcome!
+
+Feel free to reach out at https://x.com/_shounakchandra in case you need anything
+
+
+Git url - https://github.com/shounakdev/torentino
+Work in progress 

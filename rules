@@ -1,0 +1,26 @@
+Shounak's Project Classification System
+🛠️ Made by Shounak
+The Definition: Projects built for a greater purpose—such as career advancement, job interviews, or solving a specific external problem—rather than purely for personal recreation.
+
+The Context: The core idea can either be entirely mine or based on an existing concept that I have optimally improved. The defining factor is that it is built with an external audience or utility in mind.
+
+🎨 Crafted by Shounak
+The Definition: Passion projects built entirely by me, for me.
+
+The Context: These are 100% original ideas and executions. They are born out of pure curiosity and personal recreation, not for show, validation, or an audience. If the idea is inspired by something else but the code is written entirely from scratch for my own use, it lives here.
+
+🚀 Made Better by Shounak
+The Definition: Substantial modifications, feature additions, or optimizations made to an existing foundation.
+
+The Context: This applies when I clone a repository, use an existing codebase, or adopt someone else's UI, and then significantly contribute to it, add features, or improve it before using or sharing it. (Note: If only the idea was copied but the code was written completely by me, it falls under "Crafted" or "Made by" instead).
+
+📦 [No Label / Standard Repo]
+The Definition: Utility forks or baseline templates.
+
+The Context: Existing repositories or tools cloned from other developers that I use as-is, or modify slightly, purely to display my own content or data.
+
+Label,Who is it for?,Who wrote the code?,Origin of the Idea?
+Made by,External / Career / Purpose,Shounak,Original OR Existing (Optimized)
+Crafted by,Purely Personal Recreation,Shounak,100% Original
+Made Better by,Personal or Shared Use,Built on existing codebase,Existing Codebase / UI
+No Label,Personal Tooling / Display,Cloned from others (Modified),Existing
