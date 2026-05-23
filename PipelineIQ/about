@@ -1,5 +1,5 @@
 
-# Pipeline IQ (Intelligent CICD Dashboard)
+# Pipeline IQ (Intelligent CICD Dashboard) (Front end Project now called Ipipeline)
 
 Pipeline IQ is an intelligent CI/CD control-plane dashboard that can trigger real pipeline runs, execute Node.js-based projects, run SonarQube quality scans, store build logs, and generate AI-powered DevOps summaries.
 
