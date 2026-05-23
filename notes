@@ -1,0 +1,23 @@
+Neon = database hosting only.
+It gives you a managed/serverless PostgreSQL database with features like autoscaling, connection pooling, scale-to-zero, and database branching. It is best when your backend already exists separately, like your PipelineIQ FastAPI backend on Render. Neon’s main job is: “host my Postgres database reliably.”
+
+Supabase = full backend platform built around Postgres.
+It gives you Postgres plus extra app features: Auth, instant APIs, Realtime, Storage, Edge Functions, vector support, and row-level security workflows. It is closer to a Firebase alternative, but with SQL/Postgres.
+
+Simple comparison:
+
+Feature	Supabase	Neon
+Core thing	Backend-as-a-service	Serverless Postgres
+Database	PostgreSQL	PostgreSQL
+Auth included	Yes	No
+File storage included	Yes	No
+Auto REST APIs	Yes	No
+Realtime subscriptions	Yes	No
+Edge/serverless functions	Yes	No
+DB branching	Some support exists, but not the main identity	Very strong focus
+Best for	Apps needing auth + DB + storage quickly	Apps with custom backend needing only Postgres
+Example from your projects	GitDock metadata/tokens	PipelineIQ production DB
+
+For GitDock, Supabase made sense because you needed more app-like backend features: storing Google Drive tokens, user/repo metadata, maybe collaborators, permissions, and later storage/auth-related flows.
+
+For PipelineIQ, Neon makes more sense because your backend is already FastAPI on Render. You do not need Supabase Auth or Storage there.
