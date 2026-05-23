@@ -1,0 +1,10 @@
+Cloned Pipeline Iq backend to shounakverse
+Pipeline Iq backend is deployed from Shounakverse
+
+Following structure has been use
+
+Render service 	1: FastAPI Web Service Render service 
+				2: Celery Background Worker 
+Neon: Postgres database 
+Upstash: Redis queue SonarQube 
+Cloud: Code quality scan 
