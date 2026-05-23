@@ -1,6 +1,8 @@
 Cloned Pipeline Iq backend to shounakverse
 Pipeline Iq backend is deployed from Shounakverse
 
+For this backend deployment shounakverse account has been used
+
 Following structure has been use
 
 Render service 	1: FastAPI Web Service Render service 
@@ -8,3 +10,9 @@ Render service 	1: FastAPI Web Service Render service
 Neon: Postgres database 
 Upstash: Redis queue SonarQube 
 Cloud: Code quality scan 
+
+
+
+
+For frontend deployment used Netlify
+Account used shounakdev
